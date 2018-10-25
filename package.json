@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "pretty-quick": "pretty-quick",
-    "precommit": "pretty-quick --staged"
+    "precommit": "npm run pretty-quick"
   },
   "keywords": [],
   "author": "",
@@ -15,10 +15,5 @@
     "husky": "^1.1.2",
     "prettier": "1.14.3",
     "pretty-quick": "^1.8.0"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "pretty-quick --staged"
-    }
   }
 }

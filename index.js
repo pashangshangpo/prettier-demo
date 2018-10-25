@@ -7,4 +7,4 @@ function c(a){
 if( 1 )  {
   console.log(1)
 }
-alert(111);
+alert(111);  

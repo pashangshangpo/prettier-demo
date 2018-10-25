@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "pretty-quick": "pretty-quick",
-    "precommit": "npm run pretty-quick"
+    "precommit": "npm run index.js"
   },
   "keywords": [],
   "author": "",

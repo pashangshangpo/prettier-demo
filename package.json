@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "foo": "pretty-quick"
+    "format": "pretty-quick --staged"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +17,6 @@
     "pretty-quick": "^1.8.0"
   },
   "pre-commit": [
-    "foo"
+    "format"
   ]
 }
